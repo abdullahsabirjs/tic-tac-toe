@@ -1,0 +1,95 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+
+.title {
+  margin-top: 30px; 
+  color:  #b2ebf2;
+  font-size: 40px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.board {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+
+.row1, .row2 {
+  display: flex;
+}
+
+
+.boxes {
+  width: 100px; 
+  height: 100px;
+  background: #e3f2fd;
+  border: 4px solid #01579b;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.boxes img {
+  max-width: 80%;
+  max-height: 80%; 
+  object-fit: contain;
+}
+
+.congratulations {
+  display: flex; 
+  align-items: center;
+  justify-content: center; 
+  margin-bottom: 20px;
+}
+
+.congratulations h2 {
+  font-size: 30px; 
+  color: #4caf50;
+  margin-right: 10px; 
+}
+
+.congratulations p {
+  font-size: 24px;
+  color: #333;
+  margin-left: 10px; 
+}
+
+.winning-icon {
+  width: 50px; 
+  height: 50px; 
+  margin-right: 10px;
+}
+.reset{
+    width: 200px;
+    height: 75px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #f08080;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+.reset:hover {
+    background-color: #b2ebf2;
+    color: #ffffff;
+}
+
+
+
+
